@@ -1,4 +1,4 @@
-Course Information
+#Course Information
 Field	Details
 Course Name	Deep Learning
 Lab Title	Research Paper Implementation with Pre-trained Model (Brain Tumor Detection using CNN)
@@ -18,37 +18,42 @@ Shravani Karhale	202301040139
 
 Nishi Agarwal	    202301040219
 
-Project Overview
+
+#Project Overview
 
 This project implements a Deep Learning-based Brain Tumor Detection System using MRI images.
 A pre-trained Convolutional Neural Network (CNN) model is used to classify brain scans into tumor and non-tumor categories.
 
 The system demonstrates how AI can assist in medical diagnosis by improving speed and accuracy.
 
-Objectives
+#Objectives
+
 Study and understand research paper methodology
 Implement tumor detection using deep learning
 Apply transfer learning using pre-trained models
 Train and evaluate model performance
 Build an end-to-end AI system
 
-Dataset
+
+#Dataset
 Field	Details
 Dataset Name	Brain Tumor MRI Dataset
 
-Source	Kaggle
+#Source	Kaggle
 Link	https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
 
-Type	MRI Images
+#Type	MRI Images
 Classes	Tumor / No Tumor
 Problem Statement
 
 To develop a model that can:
 
-Analyze MRI brain scans
+#Analyze MRI brain scans
+
 Detect the presence of tumors
 Classify images accurately
  Methodology
+ 
 1. Data Preprocessing
 Image resizing
 Normalization
@@ -68,7 +73,7 @@ Loss
 Confusion Matrix
 
 
-Model Architecture
+#Model Architecture
 Input Image
      ↓
 Pre-trained CNN (Feature Extraction)
@@ -80,25 +85,29 @@ Softmax Layer
 Output (Tumor / No Tumor)
 
 
-Training Configuration
+#Training Configuration
+
 Parameter	  Value
 Epochs	     10–20
 Batch Size  	32
 Optimizer 	Adam
 Loss Function	Categorical Crossentropy
 
-Results
+#Results
+
 Achieved good classification accuracy
 Model successfully detects tumor presence
 Performance improves with more training and data
 
-Sample Predictions
+#Sample Predictions
+
 Input	Output
 MRI Image	Tumor
 MRI Image	No Tumor
 
 
-Requirements
+#Requirements
+
 tensorflow
 keras
 numpy
@@ -108,18 +117,20 @@ scikit-learn
 
 
 
-References
+#References
+
 Kaggle Brain Tumor Dataset
 TensorFlow Documentation
 Keras Documentation
 Research Papers on Medical Image Classification
 
-Conclusion
+#Conclusion
 
 This project shows how deep learning can be used in healthcare applications for early tumor detection.
 The model provides reliable results and can assist doctors in diagnosis.
 
-Future Work
+#Future Work
+
 Use advanced models (ResNet50, EfficientNet)
 Improve dataset size
 Deploy as web application
